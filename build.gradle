@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'app.shann'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.apache.solr/solr-solrj
+    implementation 'org.apache.solr:solr-solrj:9.7.0'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
