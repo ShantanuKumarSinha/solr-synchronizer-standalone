@@ -17,5 +17,6 @@ This application usage solr to index the application
 
 By default, Solr listens to port 8983 for incoming HTTP queries. You can verify that it is successfully launched by opening the http://localhost:8983/solr/#/bigboxstore URL in a browser and observing the Solr Dashboard.
 
-Solr Queries you can see like this 
-    
+Solr Queries you can see like this
+
+![](https://github.com/ShantanuKumarSinha/solr-synchronizer-standalone/blob/main/src/main/resources/images/Solr_Query_Result.png "Solr Search Query") 
